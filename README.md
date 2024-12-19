@@ -10,6 +10,7 @@ In the `graphrag/index/operations` directory, you will also find various impleme
 - **`leiden_memo.py`**: This file implements the algorithm using memoization to remember the best node movements.
 - **`leiden_with_threshold.py`**: This file includes an algorithm that uses a threshold to improve the modularity metric during node movement. If the movement only marginally improves the metric (according to the threshold), it will not be performed.
 
+Tests of these algorithms are presented in  **`test_cluster.ipynb`**
 
 ## Installation
 
